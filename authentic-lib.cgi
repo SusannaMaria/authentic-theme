@@ -303,9 +303,7 @@ sub print_switch_webmin {
             && $t_uri_webmail == -1 ? " checked" : "" )
         . '>
         <label for="open_'
-        . &get_product_name() . '">
-                <i class="wbm-webmin wbm-sm"></i><span>'
-        . ucfirst( &get_product_name() ) . '</span></label>';
+        . &get_product_name() . '<i class="wbm-webmin wbm-sm"></i><span>CARamel</span></label>';
 }
 
 sub print_switch_dashboard {

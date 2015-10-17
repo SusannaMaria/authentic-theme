@@ -122,8 +122,7 @@ print '<form method="post" target="_top" action="'
     . "\n";
 
 print '<i class="wbm-webmin"></i><h2 class="form-signin-heading">
-     <span>'
-    . ucfirst( &get_product_name() ) . '</span></h2>' . "\n";
+     <span>'.'CARamel'.'</span></h2>' . "\n";
 
 #Process logo
 embed_logo();
